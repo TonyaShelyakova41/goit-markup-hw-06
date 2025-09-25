@@ -52,16 +52,21 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="solutions">
+      <section class="solutions hidden">
         <div class="container solutions-container">
           <h1 class="solutions-title">Effective Solutions for Your Business</h1>
           <button class="solutions-button" type="button">Order Service</button>
         </div>
       </section>
-      <section class="features">
+      <section class="features hidden">
         <div class="container container-features">
           <h2 class="visually-hidden">features></h2>
           <ul class="features-list">
@@ -116,7 +121,7 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team hidden">
         <div class="container team-container">
           <h2 class="title-team">Our Team</h2>
           <ul class="team-title-list">
@@ -354,7 +359,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container container-portfolio">
           <h2 class="title-portfolio">Our Portfolio</h2>
           <ul class="title-portfolio-list">
@@ -482,7 +487,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="footer-flex">
         <div class="footer-decor">
           <a class="footer-logo logo-f" href="./index.html"
@@ -557,7 +562,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button class="modal-close" type="button">
           <svg class="modal-close-icon" width="8" height="8">
