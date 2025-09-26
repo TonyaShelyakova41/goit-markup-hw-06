@@ -621,3 +621,83 @@ a {
   width: 408px;
 }
 }
+
+/* solution  */
+
+
+.solutions-container {
+  text-align: center;
+}
+.solutions {
+  min-width: 320px;
+  background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero-bg.jpg");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.solutions-title {
+  font-family: "Roboto", sans-serif;
+  max-width: 216px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.solutions-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 48px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.solutions-button:hover,
+.solutions-button:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+.solutions {
+  min-width: 768px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+.solutions-title {
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+@media screen and (min-width: 1158px) {
+.solutions {
+  max-width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+}
