@@ -247,7 +247,7 @@ img {
 }
 
 .mobile-menu-container {
-  position: relative;
+  position: fixed;
   padding-top: 72px;
   padding-bottom: 40px;
   display: flex;
@@ -264,6 +264,7 @@ img {
 .mobile-menu-nav {
   margin-bottom: auto;
 }
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
