@@ -629,7 +629,7 @@ a {
   text-align: center;
 }
 .solutions {
-  min-width: 320px;
+  max-width: 320px;
   background: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -642,17 +642,20 @@ a {
   background-size: cover;
   padding-top: 72px;
   padding-bottom: 72px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .solutions-title {
   font-family: "Roboto", sans-serif;
   max-width: 216px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
   margin: 0 auto;
 }
 
@@ -682,22 +685,22 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-.solutions {
-  min-width: 768px;
-  padding-top: 112px;
-  padding-bottom: 112px;
-}
+  .solutions {
+    max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
 
-.solutions-title {
-  max-width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
+  .solutions-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
-.solutions {
-  max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-}
+  .solutions {
+    max-width: 1158px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }

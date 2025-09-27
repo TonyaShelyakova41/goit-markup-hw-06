@@ -699,3 +699,17 @@ a {
 .modal-field-comment {
   margin-bottom: 16px;
 }
+
+
+@media screen and (min-width: 768px) {
+.solutions {
+  min-width: 768px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+.solutions-title {
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+}
