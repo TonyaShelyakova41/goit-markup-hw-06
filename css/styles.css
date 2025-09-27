@@ -294,8 +294,6 @@ img {
   margin-bottom: auto;
 }
 
-.mobile-menu-nav {
-}
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
@@ -327,7 +325,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin: 0 auto:
+  margin: 0 auto;
 }
 
 .mobile-contacts-link.blue {
@@ -812,7 +810,32 @@ color: #434455;
 }
 
 .features-description {
-  fpont-weight: 400;
+  font-weight: 400;
   font-size: 16px;
 
 }
+/* ----Team---- */
+
+
+.team {
+  display: flex;
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 320px;
+}
+
+.team-container {
+  padding: 96px 28px;
+}
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
