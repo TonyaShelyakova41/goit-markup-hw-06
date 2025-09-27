@@ -670,7 +670,7 @@ color: #fff;
   display: block;
   border-radius: 4px;
   margin: 0 auto;
-  margin-top: 48px;
+  margin-top: 72px;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -695,6 +695,7 @@ color: #fff;
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
+     margin-top: 36px;
   }
 }
 
@@ -704,3 +705,61 @@ color: #fff;
     padding-top: 188px;
     padding-bottom: 188px;
   }
+
+  .solutions-title {
+     margin-top: 48px;
+  }
+}
+
+/* ----Featerus---- */
+
+
+.container .container-features {
+  display: flex;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.features-list {
+  display: flex;
+  gap: 72px;
+  flex-wrap: wrap;
+}
+
+.features-icon-wrapper {
+  display: none;
+}
+
+
+.features-list-item {
+  width: 100%;
+}
+
+
+.subtitle-features {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+
+.features-description {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
