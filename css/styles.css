@@ -620,6 +620,7 @@ a {
 .solutions-container {
   text-align: center;
 }
+
 .solutions {
   max-width: 320px;
   background: #2e2f42;
@@ -627,7 +628,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/hero-bg.jpg");
+    url("../images/hero-bg-mob-1x.png");
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -639,6 +640,15 @@ a {
   align-items: center;
 }
 
+@media screen and (--webkit-min-device-pixel-ratio: 2), (min-resolution: 2x) {
+  .solutions {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero-bg-mob-2x.png");
+  }
+}
 .solutions-title {
   font-family: "Roboto", sans-serif;
   max-width: 216px;
@@ -681,6 +691,21 @@ a {
     max-width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero-bg-tablets-1x.png");
+  }
+
+  @media screen and (--webkit-min-device-pixel-ratio: 2), (min-resolution: 2x) {
+    .solutions {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero-bg-tablets-2x.png");
+    }
   }
 
   .solutions-title {
@@ -696,10 +721,25 @@ a {
     max-width: 1158px;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero-bg-dekst-1x.png");
   }
 
   .solutions-title {
     margin-top: 48px;
+  }
+
+  @media screen and (--webkit-min-device-pixel-ratio: 2), (min-resolution: 2x) {
+    .solutions {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero-bg-dekst-2x.png");
+    }
   }
 }
 
