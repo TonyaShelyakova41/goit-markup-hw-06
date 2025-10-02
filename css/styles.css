@@ -797,7 +797,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .features-list {
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   .features-list-item {
