@@ -947,6 +947,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .team-container {
+    max-width: 584px;
+  }
+
   .team-title-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -960,17 +964,19 @@ img {
   .team-list {
     flex-basis: calc(50% - 12px);
   }
-
-  .team {
-    padding-right: 108px;
-    padding-left: 108px;
-  }
 }
+
 @media screen and (min-width: 1158px) {
+  .team-container {
+    max-width: 1158px;
+  }
+
   .team-title-list {
     gap: 24px;
     align-items: center;
+    flex-wrap: nowrap;
   }
+
   .team-list {
     flex-basis: calc((100% - 72px) / 4);
   }
