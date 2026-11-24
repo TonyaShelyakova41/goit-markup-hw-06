@@ -50,8 +50,6 @@
 
 .mobile-menu-container {
   display: flex;
-  padding-top: 72px;
-  padding-bottom: 40px;
   height: 100%;
   flex-direction: column;
 }
@@ -116,6 +114,7 @@
 }
 
 .mobile-address-link-phone {
+  display: block;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -141,9 +140,4 @@
 .mobile-address-social .team-social {
   justify-content: flex-start;
   gap: 40px;
-}
-
-.mobile-address-social .team-icon {
-  width: 24px;
-  height: 24px;
 }
