@@ -1,0 +1,123 @@
+.burger-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+}
+
+.burger-icon {
+  display: block;
+  fill: #2f2f37;
+}
+.mobile-menu {
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding-top: 72px;
+  padding-bottom: 40px;
+  transform: translateX(100%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform;
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+.mobile-menu-container {
+  display: flex;
+  padding-top: 72px padding-bottom 40px;
+  height: 100%;
+  flex-direction: column;
+}
+
+.mobile-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+}
+
+.mobile-menu .mobile-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.mobile-btn-icon-closed {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  color: #2e2f42;
+}
+.mobile-btn:hover,
+.mobile-btn:focus {
+  background-color: #404bbf;
+}
+
+.mobile-btn:hover .mobile-btn-icon-closed,
+.mobile-btn:focus .mobile-btn-icon-closed {
+  color: #fff;
+  border: none;
+}
+.mobile-nav {
+  margin-bottom: auto;
+}
+.mobile-list {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.mobile-item {
+}
+.mobile-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  color: #2e2f42;
+}
+.active-mobile {
+  color: #404bbf;
+}
+.mobile-address {
+}
+.mobile-address-list {
+}
+
+.mobile-address-social {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.mobile-address-social .team-social {
+  justify-content: flex-start;
+  gap: 40px;
+}
