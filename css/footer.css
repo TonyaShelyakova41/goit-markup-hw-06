@@ -12,6 +12,7 @@
 .footer-desc {
   color: #f4f4fd;
   width: 288px;
+  text-align: start;
 }
 
 .footer-container {
@@ -183,6 +184,9 @@
   .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    column-gap: 0px;
   }
 
   .footer-left {

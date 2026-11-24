@@ -68,8 +68,8 @@
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24;
-    row-gap: 64;
+    column-gap: 24px;
+    row-gap: 64px;
   }
 
   .team-item {
