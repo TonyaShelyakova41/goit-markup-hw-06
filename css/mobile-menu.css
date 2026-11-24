@@ -32,14 +32,14 @@
   padding-bottom: 40px;
   transform: translateX(100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: transform, opacity, visibility;;
+  transition-property: transform, opacity, visibility;
 }
 
 .mobile-menu.is-open {
   transform: translateX(0);
   opacity: 1;
   visibility: visible;
-  pointer-events:initial;
+  pointer-events: initial;
 }
 
 @media (min-width: 768px) {
@@ -51,7 +51,7 @@
 .mobile-menu-container {
   display: flex;
   padding-top: 72px;
-  padding-bottom 40px;
+  padding-bottom: 40px;
   height: 100%;
   flex-direction: column;
 }
